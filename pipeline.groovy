@@ -7,7 +7,7 @@ pipeline {
 
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World from pipeline.groovy'
 
                 // Call the shared library step
                 hello()
